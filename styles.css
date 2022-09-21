@@ -1,0 +1,82 @@
+body {
+	background: black;
+	font-family: "Kaushan Script", cursive;
+	overflow: hidden;
+}
+/** Este código añadirá un borde rojo con una línea discontinua a cada elemento del sitio web, así podrás visualizarlas más fácilmente para depurarlas.**/
+/** 
+* {
+	border: 1px dashed red;
+	min-height: 10px;
+}
+**/
+.postcard {
+	background: white;
+	width: 400px;
+	height: auto;
+	margin: auto;
+	padding-bottom: 8px;
+}
+.postcard-header {
+	display: flex;
+	padding: 8px;
+}
+.postcard-header h1 {
+	margin: 0px;
+	width: 100%;
+	padding-top: 6px;
+}
+.postcard-body {
+	display: flex;
+	padding: 8px;
+}
+.body-left {
+	width: 50%;
+	padding: 4px;
+	font-size: 12px;
+}
+/** body-left p**/
+p.p1-left {
+	margin-top: 0px;
+}
+p.p2-left {
+	margin-top: 2px;
+}
+.body-right {
+	padding: 2px;
+}
+.body-right p {
+	margin-top: 0px;
+	margin-right: 4px;
+	margin-bottom: 6px;
+	font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande", "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
+	color: gray;
+	border-bottom: solid 1px gray;
+}
+.body-right input {
+	margin: 0px;
+	color: white;
+	width: 55%;
+	border: none;
+}
+.postcard-footer {
+	text-align: center;
+}
+.postcard-footer button {
+	background: black;
+	color: white;
+	border: none;
+	padding: 6px;
+	font-family: "Kaushan Script", cursive;
+	font-size: 12px;
+	border-radius: 2px;
+}
+.postcard-footer button:hover {
+	background: darkgray;
+	color: white;
+	border: none;
+	padding: 6px;
+	font-family: "Kaushan Script", cursive;
+	font-size: 12px;
+	border-radius: 2px;
+}
